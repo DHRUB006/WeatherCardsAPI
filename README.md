@@ -3,7 +3,7 @@
 
 # DXD - Real-Time Weather Cards Using API
 
-![Demo GIF](demo.gif)
+![DXD - Demo](https://iili.io/J3x8s49.png)
 
 DXD - Real-Time Weather Cards Using API is a real-time weather application that provides users with visually appealing weather cards, each showcasing a different weather condition. This application not only offers accurate weather information but also adds an interactive and animated touch to enhance user satisfaction.
 
@@ -46,13 +46,13 @@ To run DXD, you'll need the following:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/dxd-weather.git
+git clone https://github.com/DHRUB006/WeatherCardsAPI.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd dxd-weather
+cd WeatherCardsAPI
 ```
 
 3. Open `index.html` in your preferred web browser.
@@ -77,7 +77,9 @@ At the bottom-right corner of the screen, you'll find the character face named D
 
 ## Demo
 
-For a visual demonstration, please refer to the provided GIF [here](demo.gif).
+[View Live Demo](https://dhrub006.github.io/WeatherCardsAPI/)
+
+By clicking on the link above, you can experience the DXD App Menu with Lock Screen in action.
 
 ## Development
 
