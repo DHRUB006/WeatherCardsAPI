@@ -1,79 +1,91 @@
 
 # WeatherCardsAPI
 
-Real-Time Weather Cards Using API!
+# DXD - Real-Time Weather Cards Using API
 
-## Overview
+![Demo GIF](demo.gif)
 
-This repository contains code for generating real-time weather cards using a weather API. These cards provide up-to-date weather information in a visually appealing format.
+DXD - Real-Time Weather Cards Using API is a real-time weather application that provides users with visually appealing weather cards, each showcasing a different weather condition. This application not only offers accurate weather information but also adds an interactive and animated touch to enhance user satisfaction.
 
 ## Features
 
-- Fetches real-time weather data from a specified API.
-- Displays weather information in a user-friendly card format.
-- Supports customizable options for location, units, and additional data.
+- Real-time Weather Data
+- Location-Based Weather Updates
+- Interactive Animations
+- Dynamic Weather Cards
+- Character Face that Follows Mouse Cursor
+- Developer's Instagram Handle Link
+
+## Table of Contents
+
+1. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+2. [Usage](#usage)
+   - [Allow Location Permission](#allow-location-permission)
+   - [View Real-Time Weather Card](#view-real-time-weather-card)
+   - [Explore Different Weather Cards](#explore-different-weather-cards)
+   - [Character Interaction](#character-interaction)
+3. [Demo](#demo)
+4. [Development](#development)
+5. [Contributing](#contributing)
+6. [License](#license)
+
+---
 
 ## Getting Started
 
-To use this API, follow these steps:
+### Prerequisites
 
-1. Clone the repository to your local machine:
+To run DXD, you'll need the following:
 
-```bash
-git clone https://github.com/yourusername/WeatherCardsAPI.git
-```
+- Web Browser (with JavaScript enabled)
 
-2. Open the project in your preferred code editor.
+### Installation
 
-3. Set up your API credentials and configure the desired options in `config.js`.
-
-4. Run the application:
+1. Clone the repository:
 
 ```bash
-node app.js
+git clone https://github.com/yourusername/dxd-weather.git
 ```
 
-## Configuration
+2. Navigate to the project directory:
 
-In the `config.js` file, you can customize the following options:
+```bash
+cd dxd-weather
+```
 
-- `apiKey`: Your API key for accessing the weather data.
-- `defaultLocation`: The default location for which weather information will be displayed.
-- `defaultUnits`: The units in which temperature and other measurements are displayed (e.g., Celsius, Fahrenheit).
-- `additionalData`: Specify any additional weather data you want to display on the cards.
-
-## Dependencies
-
-This project relies on the following dependencies:
-
-- `axios`: A promise-based HTTP client for making API requests.
-- `express`: A web application framework for Node.js.
-- `ejs`: A templating engine for rendering HTML pages.
+3. Open `index.html` in your preferred web browser.
 
 ## Usage
 
-### API Endpoint
+### Allow Location Permission
 
-To retrieve weather data, make a `GET` request to:
+Upon opening the application, you'll be prompted to allow location access. Click "Allow" to enable real-time weather updates based on your current location.
 
-```
-http://localhost:3000/weather
-```
+### View Real-Time Weather Card
 
-### Query Parameters
+You'll now see a real-time weather card displaying the current weather conditions for your location. The card includes detailed information such as temperature, humidity, and wind speed.
 
-- `location`: The location for which you want to retrieve weather information.
-- `units`: The units in which you want to receive temperature and other measurements.
+### Explore Different Weather Cards
 
-Example:
+On the left side of the screen, you'll find an array of 48 different weather cards, each representing a unique weather condition. Click on any card to visualize how the animation would appear for that specific weather scenario.
 
-```
-http://localhost:3000/weather?location=NewYork&units=imperial
-```
+### Character Interaction
+
+At the bottom-right corner of the screen, you'll find the character face named DXD. The character's eyes will follow your mouse cursor. Clicking on the character will redirect you to the developer's Instagram handle [here](https://www.instagram.com/dhrubajyoti.official/).
+
+## Demo
+
+For a visual demonstration, please refer to the provided GIF [here](demo.gif).
+
+## Development
+
+If you'd like to contribute to DXD, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Contributing
 
-If you'd like to contribute, please fork the repository and create a pull request. Issues and feature requests are also welcome!
+We welcome contributions! Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for detailed information on how to get started.
 
 ## License
 
@@ -81,7 +93,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Feel free to customize this README.md to better suit your project and add any additional information you think is relevant. Good luck with your Weather Cards API project!
-```
-
-Remember to replace `yourusername` in the `git clone` command with your actual GitHub username.
+Feel free to reach out to the developer [Dhrubajyoti](https://www.instagram.com/dhrubajyoti.official/) for any inquiries or feedback. Happy weather exploring! 🌦️
