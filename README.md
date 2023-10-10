@@ -91,7 +91,7 @@ We welcome contributions! Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://dhrub006.github.io/vCardProfileByDXD/).
 
 ---
 
